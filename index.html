@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>IMC Tables with WebService</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+
+    <body>
+
+        <div class="outer-container">
+
+            <div class="outer-container-item-1">
+
+                <h2>Pessoas Cadastradas</h2>
+    
+                <table id="tabela">
+
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nome</th>
+                            <th>Altura</th>
+                            <th>Peso</th>
+                            <th>IMC</th>
+                            <th>Status</th>
+                            <th>Opções</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+    
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="outer-container-item-2">
+
+                <div class="inner-container">
+
+                    <div class="inner-container-item-1">
+                    
+                        <h2>Cadastrar</h2>
+
+                        <form id="formulario">
+            
+                            <input id="nome" type="text" placeholder="Digite o seu nome">
+            
+                            <input id="peso" type="number" placeholder="Digite o seu peso (em kg)">
+            
+                            <input id="altura" type="number" placeholder="Digite a sua altura (em metros)">
+            
+                        </form>
+
+                        <button id="enviar" type="submit">Enviar</button>
+
+                    </div>
+
+                    <div class="inner-container-item-2">
+            
+                        <h2>Operações</h2>
+            
+                        <button id="removerMaiorImc">Remover maior IMC</button>
+                        <button id="removerMenorImc">Remover menor IMC</button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+        <script src="./assets/js/app.js"></script>
+
+    </body>
+
+</html>
